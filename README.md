@@ -2,6 +2,8 @@
 
 Base class with magic methods and options set and get.
 
+[![Build Status](https://travis-ci.org/FusePump/base.php.png?branch=master)](https://travis-ci.org/FusePump/base.php)
+
 ## Example
 
 ```php
