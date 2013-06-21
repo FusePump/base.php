@@ -2,7 +2,7 @@
 
 Base class with magic methods and options set and get.
 
-# Example
+## Example
 
 ```php
 class Foo extends \FusePump\Base\Base
@@ -32,3 +32,7 @@ $foo->getOption('foo.bar'); // 'baz'
 $foo->setUserName('Bobinda'); // magic set method
 $foo->getFields(); // array( 'user_name' => 'Bobinda' );
 ```
+
+## License
+
+MIT
