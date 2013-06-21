@@ -47,27 +47,13 @@ class Base
     public function setFields($fields)
     {
         if (!is_array($fields)) {
-            throw new \Exception('Fields must be an array');
+            throw new \Exception('Fields is not an array');
         }
 
         foreach ($fields as $key => $field) {
-            $this->field[$key] = $field;
+            $this->fields[$key] = $field;
         }
 
-        return $this;
-    }
-
-    /**
-     * Set field
-     *
-     * @param string $key   - field name
-     * @param string $field - field value
-     *
-     * @return $this
-     */
-    public function setField($key, $field)
-    {
-        $this->field[$key] = $field;
         return $this;
     }
 
