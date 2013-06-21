@@ -27,7 +27,7 @@ class Foo extends \FusePump\Base\Base
 
 $foo = new Foo();
 $foo->getUserId(); // bob
-$foo->getOption('foo.bar', 'baz');
+$foo->getOption('foo.bar'); // 'baz'
 
 $foo->setUserName('Bobinda'); // magic set method
 $foo->getFields(); // array( 'user_name' => 'Bobinda' );
